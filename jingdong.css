@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+	color: #3c3c3c;
+}
+/*上栏图片 */
+.jd .title-bg{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid #000; */
+    background-color: rgb(227, 0, 20);
+}
+.jd .title-bg .title-img{
+    width: 1190px;
+    height: 80px;
+    background:url(image/1.jpg) no-repeat;
+    margin: 0 auto;
+}
+/* 导航栏 */
+.jd .nav-bg{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid #000; */
+    background: #eee;
+}
+.jd .nav-bg .nav{
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+    background: #eee;
+}
+.jd .nav-bg .nav ul{
+    float: right;
+}
+.jd .nav-bg .nav ul li:nth-child(1){
+    margin: 0 185px;
+}
+.jd .nav-bg .nav ul li{
+    float: left;
+    margin: 0 8px;
+    line-height: 30px; 
+}
+.jd .nav-bg .nav ul li a{
+    color: #999;
+}
+.jd .nav-bg .nav ul li .dz{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid #000; */
+    margin: -6px 2px; 
+    background: url(image/dz.png) no-repeat;
+    background-size: 92% 100%;   
+}
+.jd .nav-bg .nav ul li a.red{
+    color: #f00;
+}
+.jd .nav-bg .nav ul li a:hover{
+    color: #f00;
+}
+/* logo部分  */
+.jd .logo-bg{
+    width: 100%;
+    height: 140px;
+}
+.jd .logo-bg .main{
+    width: 1190px;
+    height: 140px;
+    border: 1px solid #eee;
+    margin: 0 auto;
+    position: relative;
+
+}
+.jd .logo-bg .main .logo{
+    width: 190px;
+    height: 170px;
+    /* border: 1px solid #000; */
+    margin-top: -30px;
+    background: url(image/logo.gif);
+    background-size: 100% 100%;
+}
+/* 搜索 */
+
+.jd .logo-bg .main .search{
+    width: 1000px;
+    height: 140px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+}
+.jd .logo-bg .main .search form input.ss{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 490px;
+}
+.jd .logo-bg .main .search form .sousuo{
+    padding: 4px 44px 4px 4px;
+    width: 450px;
+    height: 25px;
+    /* border: 1px solid #000; */
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.jd .logo-bg .main .search form .anniu{
+    position: absolute;
+    left: 598px;
+    top: 30px;
+}
+
+.jd .logo-bg .main .search .shop{
+    width: 188px;
+    height: 33px;
+    position: absolute;
+    color: #f00;
+    background-color: #fff;
+    text-align: center;
+    line-height: 33px;
+    right: 140px;
+    top: 30px;
+}
+.jd .logo-bg .main .search .shop span{
+    display: inline-block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    /* border: 1px solid #000; */
+    background: url(image/gwc.PNG);
+    background-size: 100% 100%;
+    top: 2px;
+    left: 34px;
+}
+.jd .logo-bg .main .search .ewm{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid #000; */
+    right: 4px;
+    background: url(image/ewm.png);
+    background-size: 100% 100%;
+}
+.jd .logo-bg .main .search .hotwords{
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    /* border: 1px solid #000; */
+    top: 64px;
+    left: 100px;
+}
+.jd .logo-bg .main .search .hotwords a{
+    color: #666;
+    margin: 0 4px;
+    line-height: 20px;
+    font-size: 11px;
+}
+.jd .logo-bg .main .search .hotwords a.red{
+    color: #f10215;
+}
+.jd .logo-bg .main .search .hotwords a:hover{
+    color: #f10215;
+}
+.jd .logo-bg .main .search .navitems{
+    position: absolute;
+    width: 720px;
+    height: 30px;
+    /* border: 1px solid #000; */
+    bottom: 10px;
+    left: 30px;
+}
+.jd .logo-bg .main .search .navitems ul li{
+    float: left;
+}
+.jd .logo-bg .main .search .navitems ul li a{
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    margin: 0 10px;
+}
+.jd .logo-bg .main .search .navitems ul li a:hover{
+    color: #f10215;
+}
+.jd .logo-bg .main .search .treasure{
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    /* border: 1px solid #000; */
+    background: url(image/guangg.png);
+    background-size: 100% 100%;
+    bottom: 10px;
+    right: 4px;
+}
+
+
+
+/* 主体内容 */
+.jd .main-bg{
+    width: 100%;
+    height: 469px;
+}
+.jd .main-bg .center{
+    width: 1190px;
+    height: 469px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    position: relative;
+
+}
+.jd .main-bg .center .left-nav{
+    width: 190px;
+    height: 469px;
+    /* border: 1px solid #000; */
+
+}
+.jd .main-bg .center .left-nav ul li{
+    width: 190px;
+    height: 27.5px;
+    padding-left: 6px;
+}
+.jd .main-bg .center .left-nav ul li:hover{
+    background-color: #eee;
+}
+.jd .main-bg .center .left-nav ul li a{
+    line-height: 27.5px;
+    font-size: 14px;
+    color: #626262;
+    margin: 0 4px;
+}
+.jd .main-bg .center .left-nav ul li a:hover{
+    color: #f00;
+}
+.jd .main-bg .center .left-nav ul li span{
+    color: #626262;
+}
+.jd .main-bg .center .center-main{
+    width: 1000px;
+    height: 469px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+}
+.jd .main-bg .center .center-main .img1{
+    width: 590px;
+    height: 469px;
+    margin: 0 6px;
+    /* border: 1px solid #f40; */
+    background: url(image/lb.PNG);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.jd .main-bg .center .center-main .img2{
+    width: 194px;
+    height: 153px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    left: 602px;
+    top:0;
+    background: url(image/2.PNG);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .img3{
+    width: 194px;
+    height: 153px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    left: 602px;
+    top: 158px;
+    background: url(image/3.PNG);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .img4{
+    width: 194px;
+    height: 153px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    left: 602px;
+    bottom: 0;
+    background: url(image/4.PNG);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .img5{
+    width: 194px;
+    height: 153px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.jd .main-bg .center .center-main .img5 .head{
+    width: 55px;
+    height: 55px;
+    /* border: 1px solid #f40; */
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -12px;
+    background: url(image/no_login.jpg);
+    background-size: 100% 100%;
+    box-shadow: 6px 8px 20px rgba(50,50,50,.20);
+}
+.jd .main-bg .center .center-main .img5 .hy{
+    text-align: center;
+    color: #888;
+    margin: 5px 0;
+}
+.jd .main-bg .center .center-main .img5 .dl{
+    text-align: center;
+    margin: 5px 0;
+}
+.jd .main-bg .center .center-main .img5 .dl a{
+    color: #666;
+}
+.jd .main-bg .center .center-main .img5 .dl a:hover{
+    color: #f00;
+}
+.jd .main-bg .center .center-main .img5 .new{
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+    /* border: 1px solid #f40; */
+    margin: 0 20px;
+    border-radius: 13px;
+    position: relative;
+    box-shadow: 6px 8px 20px rgba(50,50,50,.30);
+    
+}
+.jd .main-bg .center .center-main .img5 .meb{
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #e5d790;
+    background-color: #000;
+    /* border: 1px solid #f40; */
+    border-radius: 13px;
+    position: absolute;
+    bottom: 22px;
+    left: 100px;
+    box-shadow: 6px 8px 20px rgba(50,50,50,.30);
+}
+.jd .main-bg .center .center-main .kb{
+    width: 194px;
+    height: 110px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    right: 0;
+    top: 160px;
+}
+.jd .main-bg .center .center-main .kb h5{
+    position: relative;
+    font-size: 13px;
+}
+.jd .main-bg .center .center-main .kb .more{
+    position: absolute;
+    right: 12px;
+    color: #999;
+    top: 0;
+}
+.jd .main-bg .center .center-main .kb .more:hover{
+    color: #666;
+}
+.jd .main-bg .center .center-main .kb .more .yjt{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    /* border: 1px solid #000; */
+    background: url(image/yjt.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .kb ul li{
+    padding: 2px 6px;
+}
+.jd .main-bg .center .center-main .kb ul li span{
+    display: inline-block;
+    width: 35px;
+    height: 16px;
+    /* border: 1px solid #000; */
+    text-align: center;
+    line-height: 16px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #e47f7f;
+    margin-right: 6px;
+    left:4px;
+
+}
+.jd .main-bg .center .center-main .kb ul li a{
+    display: inline-block;
+    width: 130px;
+    height: 16px;
+    line-height: 20px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.jd .main-bg .center .center-main .kb ul li a:hover{
+    color: #f00;
+}
+.jd .main-bg .center .center-main .cz{
+    width: 194px;
+    height: 190px;
+    /* border: 1px solid #f40; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.jd .main-bg .center .center-main .cz ul li{
+    float: left;
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 12px 6px;
+    text-align: center;
+}
+.jd .main-bg .center .center-main .cz ul li span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    /* border: 1px solid #f40; */
+}
+.jd .main-bg .center .center-main .cz ul li span.pic1{
+    background: url(image/pic1.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic1{
+    background: url(image/pic1.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic2{
+    background: url(image/pic2.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic3{
+    background: url(image/pic3.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic4{
+    background: url(image/pic4.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic5{
+    background: url(image/pic5.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic6{
+    background: url(image/pic6.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic7{
+    background: url(image/pic7.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic8{
+    background: url(image/pic8.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic9{
+    background: url(image/pic9.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic10{
+    background: url(image/pic10.PNG);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic11{
+    background: url(image/pic11.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li span.pic12{
+    background: url(image/pic12.png);
+    background-size: 100% 100%;
+}
+.jd .main-bg .center .center-main .cz ul li a p{
+    font-size: 11px;
+    display: block;
+    text-align: center;
+    color: #bea68d;
+}
+.jd .main-bg .center .center-main .cz ul li a p:hover{
+    color: #f00;
+}
